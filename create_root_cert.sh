@@ -10,7 +10,7 @@ usage() {
     optionally create a windows pfx file for iis
 
     Usage: $0 -a certificate authority name -c country code -s state -t town/city [-w]
-    e.g. $0 -a Peaksoft -c NZ -s Otago -t Alexandra -w
+    e.g. $0 -a MyAuthority -c NZ -s Otago -t Alexandra -w
 
     country, state and town are used for the certificate
     -w  generate windows pfx file for iis. You will be prompted for a password to protect the file
